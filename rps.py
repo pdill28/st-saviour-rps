@@ -1,3 +1,4 @@
+import random
 import time
 
 def print_dramatic_text(text: str, delay=0.1):
