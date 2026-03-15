@@ -8,4 +8,4 @@ def print_dramatic_text(text: str, delay=0.1):
     print()
 
 if __name__ == '__main__':
-    print_dramatic_text('welcome to rock, paper, scissors! 🪨📃✂️')
+    print_dramatic_text('welcome to rock, paper, scissors! 🗿📃✂️')
