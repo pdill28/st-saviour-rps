@@ -23,4 +23,24 @@ if __name__ == '__main__':
     print(f'player selected: {player}')
 
     if player == 'rock' and computer ==  'rock':
-        print
+        print('it\'s a tie!')
+    if player == 'rock' and computer ==  'paper':
+        print('you lose!')
+    if player == 'rock' and computer ==  'scissors':
+        print('you win!')
+
+    if player == 'scissors' and computer ==  'rock':
+        print('you lose!')
+    if player == 'scissors' and computer ==  'paper':
+        print('you win!')
+    if player== 'scissors' and computer == 'scissors':
+        print('it\'s a tie!')
+
+    
+    if player == 'paper' and computer ==  'rock':
+        print('you win!')
+    if player == 'paper' and computer == 'scissors':
+        print('you lose!')
+    if player == 'paper' and computer == 'paper':
+        print('it\'s a tie!')
+
