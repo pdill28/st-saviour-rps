@@ -21,6 +21,7 @@ if __name__ == '__main__':
        player = input('please choose rock, paper, or scissors:')
                         
     print(f'player selected: {player}')
+    print('computer player selected: ' + options[choices])
 
     if player == 'rock' and computer ==  'rock':
         print('it\'s a tie!')
